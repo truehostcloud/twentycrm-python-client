@@ -1,0 +1,13 @@
+{
+  "packageName": "twentycrm_client",
+  "projectName": "twentycrm-api-client",
+  "packageVersion": "1.18.1",
+  "packageUrl": "https://github.com/twentyhq/twentycrm-python-client",
+  "packageCompany": "Cloudoon Inc.",
+  "packageAuthor": "William Mwai",
+  "packageEmail": "william@cloudoon.com",
+  "packageDescription": "Python client for Twenty CRM API",
+  "generateSourceCodeOnly": false,
+  "packageKeywords": ["twenty", "api", "client", "crm", "customer", "relationship", "management"],
+  "skipFormModel": false
+}
