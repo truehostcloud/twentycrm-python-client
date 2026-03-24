@@ -9,5 +9,8 @@
   "packageDescription": "Python client for Twenty CRM API",
   "generateSourceCodeOnly": false,
   "packageKeywords": ["twenty", "api", "client", "crm", "customer", "relationship", "management"],
-  "skipFormModel": false
+  "skipFormModel": false,
+  "openapiNormalizer": {
+    "FILTER": "path:/"
+  }
 }

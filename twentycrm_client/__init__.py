@@ -60,9 +60,6 @@ __all__ = [
     "ApiException",
     "Attachment",
     "AttachmentCreatedBy",
-    "AttachmentCreatedPostRequest",
-    "AttachmentCreatedPostRequestObjectMetadata",
-    "AttachmentDeletedPostRequest",
     "AttachmentFileInner",
     "AttachmentForResponse",
     "AttachmentForResponseCreatedBy",
@@ -70,63 +67,34 @@ __all__ = [
     "AttachmentForResponseUpdatedBy",
     "AttachmentForUpdate",
     "AttachmentUpdatedBy",
-    "AttachmentUpdatedPostRequest",
     "Blocklist",
-    "BlocklistCreatedPostRequest",
-    "BlocklistCreatedPostRequestObjectMetadata",
-    "BlocklistDeletedPostRequest",
     "BlocklistForResponse",
     "BlocklistForUpdate",
-    "BlocklistUpdatedPostRequest",
     "CalendarChannel",
-    "CalendarChannelCreatedPostRequest",
-    "CalendarChannelCreatedPostRequestObjectMetadata",
-    "CalendarChannelDeletedPostRequest",
     "CalendarChannelEventAssociation",
-    "CalendarChannelEventAssociationCreatedPostRequest",
-    "CalendarChannelEventAssociationCreatedPostRequestObjectMetadata",
-    "CalendarChannelEventAssociationDeletedPostRequest",
     "CalendarChannelEventAssociationForResponse",
     "CalendarChannelEventAssociationForUpdate",
-    "CalendarChannelEventAssociationUpdatedPostRequest",
     "CalendarChannelForResponse",
     "CalendarChannelForUpdate",
-    "CalendarChannelUpdatedPostRequest",
     "CalendarEvent",
     "CalendarEventConferenceLink",
     "CalendarEventConferenceLinkSecondaryLinksInner",
-    "CalendarEventCreatedPostRequest",
-    "CalendarEventCreatedPostRequestObjectMetadata",
-    "CalendarEventDeletedPostRequest",
     "CalendarEventForResponse",
     "CalendarEventForUpdate",
     "CalendarEventParticipant",
-    "CalendarEventParticipantCreatedPostRequest",
-    "CalendarEventParticipantCreatedPostRequestObjectMetadata",
-    "CalendarEventParticipantDeletedPostRequest",
     "CalendarEventParticipantForResponse",
     "CalendarEventParticipantForUpdate",
-    "CalendarEventParticipantUpdatedPostRequest",
-    "CalendarEventUpdatedPostRequest",
     "Company",
     "CompanyAddress",
     "CompanyAnnualRecurringRevenue",
-    "CompanyCreatedPostRequest",
-    "CompanyCreatedPostRequestObjectMetadata",
-    "CompanyDeletedPostRequest",
     "CompanyDomainName",
     "CompanyForResponse",
     "CompanyForUpdate",
     "CompanyLinkedinLink",
-    "CompanyUpdatedPostRequest",
     "CompanyXLink",
     "ConnectedAccount",
-    "ConnectedAccountCreatedPostRequest",
-    "ConnectedAccountCreatedPostRequestObjectMetadata",
-    "ConnectedAccountDeletedPostRequest",
     "ConnectedAccountForResponse",
     "ConnectedAccountForUpdate",
-    "ConnectedAccountUpdatedPostRequest",
     "CreateManyAttachments201Response",
     "CreateManyAttachments201ResponseData",
     "CreateManyBlocklists201Response",
@@ -244,12 +212,8 @@ __all__ = [
     "CreateOneWorkspaceMember201Response",
     "CreateOneWorkspaceMember201ResponseData",
     "Dashboard",
-    "DashboardCreatedPostRequest",
-    "DashboardCreatedPostRequestObjectMetadata",
-    "DashboardDeletedPostRequest",
     "DashboardForResponse",
     "DashboardForUpdate",
-    "DashboardUpdatedPostRequest",
     "DeleteManyAttachments200Response",
     "DeleteManyAttachments200ResponseData",
     "DeleteManyAttachments200ResponseDataDeleteAttachmentsInner",
@@ -368,19 +332,11 @@ __all__ = [
     "DeleteOneWorkspaceMember200Response",
     "DeleteOneWorkspaceMember200ResponseData",
     "Favorite",
-    "FavoriteCreatedPostRequest",
-    "FavoriteCreatedPostRequestObjectMetadata",
-    "FavoriteDeletedPostRequest",
     "FavoriteFolder",
-    "FavoriteFolderCreatedPostRequest",
-    "FavoriteFolderCreatedPostRequestObjectMetadata",
-    "FavoriteFolderDeletedPostRequest",
     "FavoriteFolderForResponse",
     "FavoriteFolderForUpdate",
-    "FavoriteFolderUpdatedPostRequest",
     "FavoriteForResponse",
     "FavoriteForUpdate",
-    "FavoriteUpdatedPostRequest",
     "FindAttachmentDuplicates200Response",
     "FindAttachmentDuplicates200ResponseDataInner",
     "FindAttachmentDuplicatesRequest",
@@ -769,78 +725,38 @@ __all__ = [
     "MergeManyWorkspaceMembersRequest",
     "Message",
     "MessageChannel",
-    "MessageChannelCreatedPostRequest",
-    "MessageChannelCreatedPostRequestObjectMetadata",
-    "MessageChannelDeletedPostRequest",
     "MessageChannelForResponse",
     "MessageChannelForUpdate",
     "MessageChannelMessageAssociation",
-    "MessageChannelMessageAssociationCreatedPostRequest",
-    "MessageChannelMessageAssociationCreatedPostRequestObjectMetadata",
-    "MessageChannelMessageAssociationDeletedPostRequest",
     "MessageChannelMessageAssociationForResponse",
     "MessageChannelMessageAssociationForUpdate",
-    "MessageChannelMessageAssociationUpdatedPostRequest",
-    "MessageChannelUpdatedPostRequest",
-    "MessageCreatedPostRequest",
-    "MessageCreatedPostRequestObjectMetadata",
-    "MessageDeletedPostRequest",
     "MessageFolder",
-    "MessageFolderCreatedPostRequest",
-    "MessageFolderCreatedPostRequestObjectMetadata",
-    "MessageFolderDeletedPostRequest",
     "MessageFolderForResponse",
     "MessageFolderForUpdate",
-    "MessageFolderUpdatedPostRequest",
     "MessageForResponse",
     "MessageForUpdate",
     "MessageParticipant",
-    "MessageParticipantCreatedPostRequest",
-    "MessageParticipantCreatedPostRequestObjectMetadata",
-    "MessageParticipantDeletedPostRequest",
     "MessageParticipantForResponse",
     "MessageParticipantForUpdate",
-    "MessageParticipantUpdatedPostRequest",
-    "MessageThreadCreatedPostRequest",
-    "MessageThreadCreatedPostRequestObjectMetadata",
-    "MessageThreadDeletedPostRequest",
     "MessageThreadForResponse",
-    "MessageThreadUpdatedPostRequest",
-    "MessageUpdatedPostRequest",
     "Note",
     "NoteBodyV2",
-    "NoteCreatedPostRequest",
-    "NoteCreatedPostRequestObjectMetadata",
-    "NoteDeletedPostRequest",
     "NoteForResponse",
     "NoteForUpdate",
     "NoteTarget",
-    "NoteTargetCreatedPostRequest",
-    "NoteTargetCreatedPostRequestObjectMetadata",
-    "NoteTargetDeletedPostRequest",
     "NoteTargetForResponse",
     "NoteTargetForUpdate",
-    "NoteTargetUpdatedPostRequest",
-    "NoteUpdatedPostRequest",
     "Opportunity",
     "OpportunityAmount",
-    "OpportunityCreatedPostRequest",
-    "OpportunityCreatedPostRequestObjectMetadata",
-    "OpportunityDeletedPostRequest",
     "OpportunityForResponse",
     "OpportunityForUpdate",
-    "OpportunityUpdatedPostRequest",
     "Person",
-    "PersonCreatedPostRequest",
-    "PersonCreatedPostRequestObjectMetadata",
-    "PersonDeletedPostRequest",
     "PersonEmails",
     "PersonForResponse",
     "PersonForUpdate",
     "PersonLinkedinLink",
     "PersonName",
     "PersonPhones",
-    "PersonUpdatedPostRequest",
     "PersonXLink",
     "RestoreManyAttachments200Response",
     "RestoreManyAttachments200ResponseData",
@@ -960,26 +876,14 @@ __all__ = [
     "RestoreOneWorkspaceMember200ResponseData",
     "Task",
     "TaskBodyV2",
-    "TaskCreatedPostRequest",
-    "TaskCreatedPostRequestObjectMetadata",
-    "TaskDeletedPostRequest",
     "TaskForResponse",
     "TaskForUpdate",
     "TaskTarget",
-    "TaskTargetCreatedPostRequest",
-    "TaskTargetCreatedPostRequestObjectMetadata",
-    "TaskTargetDeletedPostRequest",
     "TaskTargetForResponse",
     "TaskTargetForUpdate",
-    "TaskTargetUpdatedPostRequest",
-    "TaskUpdatedPostRequest",
     "TimelineActivity",
-    "TimelineActivityCreatedPostRequest",
-    "TimelineActivityCreatedPostRequestObjectMetadata",
-    "TimelineActivityDeletedPostRequest",
     "TimelineActivityForResponse",
     "TimelineActivityForUpdate",
-    "TimelineActivityUpdatedPostRequest",
     "UpdateManyAttachments200Response",
     "UpdateManyAttachments200ResponseData",
     "UpdateManyBlocklists200Response",
@@ -1098,42 +1002,22 @@ __all__ = [
     "UpdateOneWorkspaceMember200ResponseData",
     "Workflow",
     "WorkflowAutomatedTrigger",
-    "WorkflowAutomatedTriggerCreatedPostRequest",
-    "WorkflowAutomatedTriggerCreatedPostRequestObjectMetadata",
-    "WorkflowAutomatedTriggerDeletedPostRequest",
     "WorkflowAutomatedTriggerForResponse",
     "WorkflowAutomatedTriggerForUpdate",
-    "WorkflowAutomatedTriggerUpdatedPostRequest",
-    "WorkflowCreatedPostRequest",
-    "WorkflowCreatedPostRequestObjectMetadata",
-    "WorkflowDeletedPostRequest",
     "WorkflowForResponse",
     "WorkflowForUpdate",
     "WorkflowRun",
     "WorkflowRunCreatedBy",
-    "WorkflowRunCreatedPostRequest",
-    "WorkflowRunCreatedPostRequestObjectMetadata",
-    "WorkflowRunDeletedPostRequest",
     "WorkflowRunForResponse",
     "WorkflowRunForResponseCreatedBy",
     "WorkflowRunForUpdate",
-    "WorkflowRunUpdatedPostRequest",
-    "WorkflowUpdatedPostRequest",
     "WorkflowVersion",
-    "WorkflowVersionCreatedPostRequest",
-    "WorkflowVersionCreatedPostRequestObjectMetadata",
-    "WorkflowVersionDeletedPostRequest",
     "WorkflowVersionForResponse",
     "WorkflowVersionForUpdate",
-    "WorkflowVersionUpdatedPostRequest",
     "WorkspaceMember",
-    "WorkspaceMemberCreatedPostRequest",
-    "WorkspaceMemberCreatedPostRequestObjectMetadata",
-    "WorkspaceMemberDeletedPostRequest",
     "WorkspaceMemberForResponse",
     "WorkspaceMemberForUpdate",
     "WorkspaceMemberName",
-    "WorkspaceMemberUpdatedPostRequest",
 ]
 
 # import apis into sdk package
@@ -1182,9 +1066,6 @@ from twentycrm_client.exceptions import ApiException as ApiException
 # import models into sdk package
 from twentycrm_client.models.attachment import Attachment as Attachment
 from twentycrm_client.models.attachment_created_by import AttachmentCreatedBy as AttachmentCreatedBy
-from twentycrm_client.models.attachment_created_post_request import AttachmentCreatedPostRequest as AttachmentCreatedPostRequest
-from twentycrm_client.models.attachment_created_post_request_object_metadata import AttachmentCreatedPostRequestObjectMetadata as AttachmentCreatedPostRequestObjectMetadata
-from twentycrm_client.models.attachment_deleted_post_request import AttachmentDeletedPostRequest as AttachmentDeletedPostRequest
 from twentycrm_client.models.attachment_file_inner import AttachmentFileInner as AttachmentFileInner
 from twentycrm_client.models.attachment_for_response import AttachmentForResponse as AttachmentForResponse
 from twentycrm_client.models.attachment_for_response_created_by import AttachmentForResponseCreatedBy as AttachmentForResponseCreatedBy
@@ -1192,63 +1073,34 @@ from twentycrm_client.models.attachment_for_response_file_inner import Attachmen
 from twentycrm_client.models.attachment_for_response_updated_by import AttachmentForResponseUpdatedBy as AttachmentForResponseUpdatedBy
 from twentycrm_client.models.attachment_for_update import AttachmentForUpdate as AttachmentForUpdate
 from twentycrm_client.models.attachment_updated_by import AttachmentUpdatedBy as AttachmentUpdatedBy
-from twentycrm_client.models.attachment_updated_post_request import AttachmentUpdatedPostRequest as AttachmentUpdatedPostRequest
 from twentycrm_client.models.blocklist import Blocklist as Blocklist
-from twentycrm_client.models.blocklist_created_post_request import BlocklistCreatedPostRequest as BlocklistCreatedPostRequest
-from twentycrm_client.models.blocklist_created_post_request_object_metadata import BlocklistCreatedPostRequestObjectMetadata as BlocklistCreatedPostRequestObjectMetadata
-from twentycrm_client.models.blocklist_deleted_post_request import BlocklistDeletedPostRequest as BlocklistDeletedPostRequest
 from twentycrm_client.models.blocklist_for_response import BlocklistForResponse as BlocklistForResponse
 from twentycrm_client.models.blocklist_for_update import BlocklistForUpdate as BlocklistForUpdate
-from twentycrm_client.models.blocklist_updated_post_request import BlocklistUpdatedPostRequest as BlocklistUpdatedPostRequest
 from twentycrm_client.models.calendar_channel import CalendarChannel as CalendarChannel
-from twentycrm_client.models.calendar_channel_created_post_request import CalendarChannelCreatedPostRequest as CalendarChannelCreatedPostRequest
-from twentycrm_client.models.calendar_channel_created_post_request_object_metadata import CalendarChannelCreatedPostRequestObjectMetadata as CalendarChannelCreatedPostRequestObjectMetadata
-from twentycrm_client.models.calendar_channel_deleted_post_request import CalendarChannelDeletedPostRequest as CalendarChannelDeletedPostRequest
 from twentycrm_client.models.calendar_channel_event_association import CalendarChannelEventAssociation as CalendarChannelEventAssociation
-from twentycrm_client.models.calendar_channel_event_association_created_post_request import CalendarChannelEventAssociationCreatedPostRequest as CalendarChannelEventAssociationCreatedPostRequest
-from twentycrm_client.models.calendar_channel_event_association_created_post_request_object_metadata import CalendarChannelEventAssociationCreatedPostRequestObjectMetadata as CalendarChannelEventAssociationCreatedPostRequestObjectMetadata
-from twentycrm_client.models.calendar_channel_event_association_deleted_post_request import CalendarChannelEventAssociationDeletedPostRequest as CalendarChannelEventAssociationDeletedPostRequest
 from twentycrm_client.models.calendar_channel_event_association_for_response import CalendarChannelEventAssociationForResponse as CalendarChannelEventAssociationForResponse
 from twentycrm_client.models.calendar_channel_event_association_for_update import CalendarChannelEventAssociationForUpdate as CalendarChannelEventAssociationForUpdate
-from twentycrm_client.models.calendar_channel_event_association_updated_post_request import CalendarChannelEventAssociationUpdatedPostRequest as CalendarChannelEventAssociationUpdatedPostRequest
 from twentycrm_client.models.calendar_channel_for_response import CalendarChannelForResponse as CalendarChannelForResponse
 from twentycrm_client.models.calendar_channel_for_update import CalendarChannelForUpdate as CalendarChannelForUpdate
-from twentycrm_client.models.calendar_channel_updated_post_request import CalendarChannelUpdatedPostRequest as CalendarChannelUpdatedPostRequest
 from twentycrm_client.models.calendar_event import CalendarEvent as CalendarEvent
 from twentycrm_client.models.calendar_event_conference_link import CalendarEventConferenceLink as CalendarEventConferenceLink
 from twentycrm_client.models.calendar_event_conference_link_secondary_links_inner import CalendarEventConferenceLinkSecondaryLinksInner as CalendarEventConferenceLinkSecondaryLinksInner
-from twentycrm_client.models.calendar_event_created_post_request import CalendarEventCreatedPostRequest as CalendarEventCreatedPostRequest
-from twentycrm_client.models.calendar_event_created_post_request_object_metadata import CalendarEventCreatedPostRequestObjectMetadata as CalendarEventCreatedPostRequestObjectMetadata
-from twentycrm_client.models.calendar_event_deleted_post_request import CalendarEventDeletedPostRequest as CalendarEventDeletedPostRequest
 from twentycrm_client.models.calendar_event_for_response import CalendarEventForResponse as CalendarEventForResponse
 from twentycrm_client.models.calendar_event_for_update import CalendarEventForUpdate as CalendarEventForUpdate
 from twentycrm_client.models.calendar_event_participant import CalendarEventParticipant as CalendarEventParticipant
-from twentycrm_client.models.calendar_event_participant_created_post_request import CalendarEventParticipantCreatedPostRequest as CalendarEventParticipantCreatedPostRequest
-from twentycrm_client.models.calendar_event_participant_created_post_request_object_metadata import CalendarEventParticipantCreatedPostRequestObjectMetadata as CalendarEventParticipantCreatedPostRequestObjectMetadata
-from twentycrm_client.models.calendar_event_participant_deleted_post_request import CalendarEventParticipantDeletedPostRequest as CalendarEventParticipantDeletedPostRequest
 from twentycrm_client.models.calendar_event_participant_for_response import CalendarEventParticipantForResponse as CalendarEventParticipantForResponse
 from twentycrm_client.models.calendar_event_participant_for_update import CalendarEventParticipantForUpdate as CalendarEventParticipantForUpdate
-from twentycrm_client.models.calendar_event_participant_updated_post_request import CalendarEventParticipantUpdatedPostRequest as CalendarEventParticipantUpdatedPostRequest
-from twentycrm_client.models.calendar_event_updated_post_request import CalendarEventUpdatedPostRequest as CalendarEventUpdatedPostRequest
 from twentycrm_client.models.company import Company as Company
 from twentycrm_client.models.company_address import CompanyAddress as CompanyAddress
 from twentycrm_client.models.company_annual_recurring_revenue import CompanyAnnualRecurringRevenue as CompanyAnnualRecurringRevenue
-from twentycrm_client.models.company_created_post_request import CompanyCreatedPostRequest as CompanyCreatedPostRequest
-from twentycrm_client.models.company_created_post_request_object_metadata import CompanyCreatedPostRequestObjectMetadata as CompanyCreatedPostRequestObjectMetadata
-from twentycrm_client.models.company_deleted_post_request import CompanyDeletedPostRequest as CompanyDeletedPostRequest
 from twentycrm_client.models.company_domain_name import CompanyDomainName as CompanyDomainName
 from twentycrm_client.models.company_for_response import CompanyForResponse as CompanyForResponse
 from twentycrm_client.models.company_for_update import CompanyForUpdate as CompanyForUpdate
 from twentycrm_client.models.company_linkedin_link import CompanyLinkedinLink as CompanyLinkedinLink
-from twentycrm_client.models.company_updated_post_request import CompanyUpdatedPostRequest as CompanyUpdatedPostRequest
 from twentycrm_client.models.company_x_link import CompanyXLink as CompanyXLink
 from twentycrm_client.models.connected_account import ConnectedAccount as ConnectedAccount
-from twentycrm_client.models.connected_account_created_post_request import ConnectedAccountCreatedPostRequest as ConnectedAccountCreatedPostRequest
-from twentycrm_client.models.connected_account_created_post_request_object_metadata import ConnectedAccountCreatedPostRequestObjectMetadata as ConnectedAccountCreatedPostRequestObjectMetadata
-from twentycrm_client.models.connected_account_deleted_post_request import ConnectedAccountDeletedPostRequest as ConnectedAccountDeletedPostRequest
 from twentycrm_client.models.connected_account_for_response import ConnectedAccountForResponse as ConnectedAccountForResponse
 from twentycrm_client.models.connected_account_for_update import ConnectedAccountForUpdate as ConnectedAccountForUpdate
-from twentycrm_client.models.connected_account_updated_post_request import ConnectedAccountUpdatedPostRequest as ConnectedAccountUpdatedPostRequest
 from twentycrm_client.models.create_many_attachments201_response import CreateManyAttachments201Response as CreateManyAttachments201Response
 from twentycrm_client.models.create_many_attachments201_response_data import CreateManyAttachments201ResponseData as CreateManyAttachments201ResponseData
 from twentycrm_client.models.create_many_blocklists201_response import CreateManyBlocklists201Response as CreateManyBlocklists201Response
@@ -1366,12 +1218,8 @@ from twentycrm_client.models.create_one_workflow_version201_response_data import
 from twentycrm_client.models.create_one_workspace_member201_response import CreateOneWorkspaceMember201Response as CreateOneWorkspaceMember201Response
 from twentycrm_client.models.create_one_workspace_member201_response_data import CreateOneWorkspaceMember201ResponseData as CreateOneWorkspaceMember201ResponseData
 from twentycrm_client.models.dashboard import Dashboard as Dashboard
-from twentycrm_client.models.dashboard_created_post_request import DashboardCreatedPostRequest as DashboardCreatedPostRequest
-from twentycrm_client.models.dashboard_created_post_request_object_metadata import DashboardCreatedPostRequestObjectMetadata as DashboardCreatedPostRequestObjectMetadata
-from twentycrm_client.models.dashboard_deleted_post_request import DashboardDeletedPostRequest as DashboardDeletedPostRequest
 from twentycrm_client.models.dashboard_for_response import DashboardForResponse as DashboardForResponse
 from twentycrm_client.models.dashboard_for_update import DashboardForUpdate as DashboardForUpdate
-from twentycrm_client.models.dashboard_updated_post_request import DashboardUpdatedPostRequest as DashboardUpdatedPostRequest
 from twentycrm_client.models.delete_many_attachments200_response import DeleteManyAttachments200Response as DeleteManyAttachments200Response
 from twentycrm_client.models.delete_many_attachments200_response_data import DeleteManyAttachments200ResponseData as DeleteManyAttachments200ResponseData
 from twentycrm_client.models.delete_many_attachments200_response_data_delete_attachments_inner import DeleteManyAttachments200ResponseDataDeleteAttachmentsInner as DeleteManyAttachments200ResponseDataDeleteAttachmentsInner
@@ -1490,19 +1338,11 @@ from twentycrm_client.models.delete_one_workflow_version200_response_data import
 from twentycrm_client.models.delete_one_workspace_member200_response import DeleteOneWorkspaceMember200Response as DeleteOneWorkspaceMember200Response
 from twentycrm_client.models.delete_one_workspace_member200_response_data import DeleteOneWorkspaceMember200ResponseData as DeleteOneWorkspaceMember200ResponseData
 from twentycrm_client.models.favorite import Favorite as Favorite
-from twentycrm_client.models.favorite_created_post_request import FavoriteCreatedPostRequest as FavoriteCreatedPostRequest
-from twentycrm_client.models.favorite_created_post_request_object_metadata import FavoriteCreatedPostRequestObjectMetadata as FavoriteCreatedPostRequestObjectMetadata
-from twentycrm_client.models.favorite_deleted_post_request import FavoriteDeletedPostRequest as FavoriteDeletedPostRequest
 from twentycrm_client.models.favorite_folder import FavoriteFolder as FavoriteFolder
-from twentycrm_client.models.favorite_folder_created_post_request import FavoriteFolderCreatedPostRequest as FavoriteFolderCreatedPostRequest
-from twentycrm_client.models.favorite_folder_created_post_request_object_metadata import FavoriteFolderCreatedPostRequestObjectMetadata as FavoriteFolderCreatedPostRequestObjectMetadata
-from twentycrm_client.models.favorite_folder_deleted_post_request import FavoriteFolderDeletedPostRequest as FavoriteFolderDeletedPostRequest
 from twentycrm_client.models.favorite_folder_for_response import FavoriteFolderForResponse as FavoriteFolderForResponse
 from twentycrm_client.models.favorite_folder_for_update import FavoriteFolderForUpdate as FavoriteFolderForUpdate
-from twentycrm_client.models.favorite_folder_updated_post_request import FavoriteFolderUpdatedPostRequest as FavoriteFolderUpdatedPostRequest
 from twentycrm_client.models.favorite_for_response import FavoriteForResponse as FavoriteForResponse
 from twentycrm_client.models.favorite_for_update import FavoriteForUpdate as FavoriteForUpdate
-from twentycrm_client.models.favorite_updated_post_request import FavoriteUpdatedPostRequest as FavoriteUpdatedPostRequest
 from twentycrm_client.models.find_attachment_duplicates200_response import FindAttachmentDuplicates200Response as FindAttachmentDuplicates200Response
 from twentycrm_client.models.find_attachment_duplicates200_response_data_inner import FindAttachmentDuplicates200ResponseDataInner as FindAttachmentDuplicates200ResponseDataInner
 from twentycrm_client.models.find_attachment_duplicates_request import FindAttachmentDuplicatesRequest as FindAttachmentDuplicatesRequest
@@ -1891,78 +1731,38 @@ from twentycrm_client.models.merge_many_workspace_members200_response_data impor
 from twentycrm_client.models.merge_many_workspace_members_request import MergeManyWorkspaceMembersRequest as MergeManyWorkspaceMembersRequest
 from twentycrm_client.models.message import Message as Message
 from twentycrm_client.models.message_channel import MessageChannel as MessageChannel
-from twentycrm_client.models.message_channel_created_post_request import MessageChannelCreatedPostRequest as MessageChannelCreatedPostRequest
-from twentycrm_client.models.message_channel_created_post_request_object_metadata import MessageChannelCreatedPostRequestObjectMetadata as MessageChannelCreatedPostRequestObjectMetadata
-from twentycrm_client.models.message_channel_deleted_post_request import MessageChannelDeletedPostRequest as MessageChannelDeletedPostRequest
 from twentycrm_client.models.message_channel_for_response import MessageChannelForResponse as MessageChannelForResponse
 from twentycrm_client.models.message_channel_for_update import MessageChannelForUpdate as MessageChannelForUpdate
 from twentycrm_client.models.message_channel_message_association import MessageChannelMessageAssociation as MessageChannelMessageAssociation
-from twentycrm_client.models.message_channel_message_association_created_post_request import MessageChannelMessageAssociationCreatedPostRequest as MessageChannelMessageAssociationCreatedPostRequest
-from twentycrm_client.models.message_channel_message_association_created_post_request_object_metadata import MessageChannelMessageAssociationCreatedPostRequestObjectMetadata as MessageChannelMessageAssociationCreatedPostRequestObjectMetadata
-from twentycrm_client.models.message_channel_message_association_deleted_post_request import MessageChannelMessageAssociationDeletedPostRequest as MessageChannelMessageAssociationDeletedPostRequest
 from twentycrm_client.models.message_channel_message_association_for_response import MessageChannelMessageAssociationForResponse as MessageChannelMessageAssociationForResponse
 from twentycrm_client.models.message_channel_message_association_for_update import MessageChannelMessageAssociationForUpdate as MessageChannelMessageAssociationForUpdate
-from twentycrm_client.models.message_channel_message_association_updated_post_request import MessageChannelMessageAssociationUpdatedPostRequest as MessageChannelMessageAssociationUpdatedPostRequest
-from twentycrm_client.models.message_channel_updated_post_request import MessageChannelUpdatedPostRequest as MessageChannelUpdatedPostRequest
-from twentycrm_client.models.message_created_post_request import MessageCreatedPostRequest as MessageCreatedPostRequest
-from twentycrm_client.models.message_created_post_request_object_metadata import MessageCreatedPostRequestObjectMetadata as MessageCreatedPostRequestObjectMetadata
-from twentycrm_client.models.message_deleted_post_request import MessageDeletedPostRequest as MessageDeletedPostRequest
 from twentycrm_client.models.message_folder import MessageFolder as MessageFolder
-from twentycrm_client.models.message_folder_created_post_request import MessageFolderCreatedPostRequest as MessageFolderCreatedPostRequest
-from twentycrm_client.models.message_folder_created_post_request_object_metadata import MessageFolderCreatedPostRequestObjectMetadata as MessageFolderCreatedPostRequestObjectMetadata
-from twentycrm_client.models.message_folder_deleted_post_request import MessageFolderDeletedPostRequest as MessageFolderDeletedPostRequest
 from twentycrm_client.models.message_folder_for_response import MessageFolderForResponse as MessageFolderForResponse
 from twentycrm_client.models.message_folder_for_update import MessageFolderForUpdate as MessageFolderForUpdate
-from twentycrm_client.models.message_folder_updated_post_request import MessageFolderUpdatedPostRequest as MessageFolderUpdatedPostRequest
 from twentycrm_client.models.message_for_response import MessageForResponse as MessageForResponse
 from twentycrm_client.models.message_for_update import MessageForUpdate as MessageForUpdate
 from twentycrm_client.models.message_participant import MessageParticipant as MessageParticipant
-from twentycrm_client.models.message_participant_created_post_request import MessageParticipantCreatedPostRequest as MessageParticipantCreatedPostRequest
-from twentycrm_client.models.message_participant_created_post_request_object_metadata import MessageParticipantCreatedPostRequestObjectMetadata as MessageParticipantCreatedPostRequestObjectMetadata
-from twentycrm_client.models.message_participant_deleted_post_request import MessageParticipantDeletedPostRequest as MessageParticipantDeletedPostRequest
 from twentycrm_client.models.message_participant_for_response import MessageParticipantForResponse as MessageParticipantForResponse
 from twentycrm_client.models.message_participant_for_update import MessageParticipantForUpdate as MessageParticipantForUpdate
-from twentycrm_client.models.message_participant_updated_post_request import MessageParticipantUpdatedPostRequest as MessageParticipantUpdatedPostRequest
-from twentycrm_client.models.message_thread_created_post_request import MessageThreadCreatedPostRequest as MessageThreadCreatedPostRequest
-from twentycrm_client.models.message_thread_created_post_request_object_metadata import MessageThreadCreatedPostRequestObjectMetadata as MessageThreadCreatedPostRequestObjectMetadata
-from twentycrm_client.models.message_thread_deleted_post_request import MessageThreadDeletedPostRequest as MessageThreadDeletedPostRequest
 from twentycrm_client.models.message_thread_for_response import MessageThreadForResponse as MessageThreadForResponse
-from twentycrm_client.models.message_thread_updated_post_request import MessageThreadUpdatedPostRequest as MessageThreadUpdatedPostRequest
-from twentycrm_client.models.message_updated_post_request import MessageUpdatedPostRequest as MessageUpdatedPostRequest
 from twentycrm_client.models.note import Note as Note
 from twentycrm_client.models.note_body_v2 import NoteBodyV2 as NoteBodyV2
-from twentycrm_client.models.note_created_post_request import NoteCreatedPostRequest as NoteCreatedPostRequest
-from twentycrm_client.models.note_created_post_request_object_metadata import NoteCreatedPostRequestObjectMetadata as NoteCreatedPostRequestObjectMetadata
-from twentycrm_client.models.note_deleted_post_request import NoteDeletedPostRequest as NoteDeletedPostRequest
 from twentycrm_client.models.note_for_response import NoteForResponse as NoteForResponse
 from twentycrm_client.models.note_for_update import NoteForUpdate as NoteForUpdate
 from twentycrm_client.models.note_target import NoteTarget as NoteTarget
-from twentycrm_client.models.note_target_created_post_request import NoteTargetCreatedPostRequest as NoteTargetCreatedPostRequest
-from twentycrm_client.models.note_target_created_post_request_object_metadata import NoteTargetCreatedPostRequestObjectMetadata as NoteTargetCreatedPostRequestObjectMetadata
-from twentycrm_client.models.note_target_deleted_post_request import NoteTargetDeletedPostRequest as NoteTargetDeletedPostRequest
 from twentycrm_client.models.note_target_for_response import NoteTargetForResponse as NoteTargetForResponse
 from twentycrm_client.models.note_target_for_update import NoteTargetForUpdate as NoteTargetForUpdate
-from twentycrm_client.models.note_target_updated_post_request import NoteTargetUpdatedPostRequest as NoteTargetUpdatedPostRequest
-from twentycrm_client.models.note_updated_post_request import NoteUpdatedPostRequest as NoteUpdatedPostRequest
 from twentycrm_client.models.opportunity import Opportunity as Opportunity
 from twentycrm_client.models.opportunity_amount import OpportunityAmount as OpportunityAmount
-from twentycrm_client.models.opportunity_created_post_request import OpportunityCreatedPostRequest as OpportunityCreatedPostRequest
-from twentycrm_client.models.opportunity_created_post_request_object_metadata import OpportunityCreatedPostRequestObjectMetadata as OpportunityCreatedPostRequestObjectMetadata
-from twentycrm_client.models.opportunity_deleted_post_request import OpportunityDeletedPostRequest as OpportunityDeletedPostRequest
 from twentycrm_client.models.opportunity_for_response import OpportunityForResponse as OpportunityForResponse
 from twentycrm_client.models.opportunity_for_update import OpportunityForUpdate as OpportunityForUpdate
-from twentycrm_client.models.opportunity_updated_post_request import OpportunityUpdatedPostRequest as OpportunityUpdatedPostRequest
 from twentycrm_client.models.person import Person as Person
-from twentycrm_client.models.person_created_post_request import PersonCreatedPostRequest as PersonCreatedPostRequest
-from twentycrm_client.models.person_created_post_request_object_metadata import PersonCreatedPostRequestObjectMetadata as PersonCreatedPostRequestObjectMetadata
-from twentycrm_client.models.person_deleted_post_request import PersonDeletedPostRequest as PersonDeletedPostRequest
 from twentycrm_client.models.person_emails import PersonEmails as PersonEmails
 from twentycrm_client.models.person_for_response import PersonForResponse as PersonForResponse
 from twentycrm_client.models.person_for_update import PersonForUpdate as PersonForUpdate
 from twentycrm_client.models.person_linkedin_link import PersonLinkedinLink as PersonLinkedinLink
 from twentycrm_client.models.person_name import PersonName as PersonName
 from twentycrm_client.models.person_phones import PersonPhones as PersonPhones
-from twentycrm_client.models.person_updated_post_request import PersonUpdatedPostRequest as PersonUpdatedPostRequest
 from twentycrm_client.models.person_x_link import PersonXLink as PersonXLink
 from twentycrm_client.models.restore_many_attachments200_response import RestoreManyAttachments200Response as RestoreManyAttachments200Response
 from twentycrm_client.models.restore_many_attachments200_response_data import RestoreManyAttachments200ResponseData as RestoreManyAttachments200ResponseData
@@ -2082,26 +1882,14 @@ from twentycrm_client.models.restore_one_workspace_member200_response import Res
 from twentycrm_client.models.restore_one_workspace_member200_response_data import RestoreOneWorkspaceMember200ResponseData as RestoreOneWorkspaceMember200ResponseData
 from twentycrm_client.models.task import Task as Task
 from twentycrm_client.models.task_body_v2 import TaskBodyV2 as TaskBodyV2
-from twentycrm_client.models.task_created_post_request import TaskCreatedPostRequest as TaskCreatedPostRequest
-from twentycrm_client.models.task_created_post_request_object_metadata import TaskCreatedPostRequestObjectMetadata as TaskCreatedPostRequestObjectMetadata
-from twentycrm_client.models.task_deleted_post_request import TaskDeletedPostRequest as TaskDeletedPostRequest
 from twentycrm_client.models.task_for_response import TaskForResponse as TaskForResponse
 from twentycrm_client.models.task_for_update import TaskForUpdate as TaskForUpdate
 from twentycrm_client.models.task_target import TaskTarget as TaskTarget
-from twentycrm_client.models.task_target_created_post_request import TaskTargetCreatedPostRequest as TaskTargetCreatedPostRequest
-from twentycrm_client.models.task_target_created_post_request_object_metadata import TaskTargetCreatedPostRequestObjectMetadata as TaskTargetCreatedPostRequestObjectMetadata
-from twentycrm_client.models.task_target_deleted_post_request import TaskTargetDeletedPostRequest as TaskTargetDeletedPostRequest
 from twentycrm_client.models.task_target_for_response import TaskTargetForResponse as TaskTargetForResponse
 from twentycrm_client.models.task_target_for_update import TaskTargetForUpdate as TaskTargetForUpdate
-from twentycrm_client.models.task_target_updated_post_request import TaskTargetUpdatedPostRequest as TaskTargetUpdatedPostRequest
-from twentycrm_client.models.task_updated_post_request import TaskUpdatedPostRequest as TaskUpdatedPostRequest
 from twentycrm_client.models.timeline_activity import TimelineActivity as TimelineActivity
-from twentycrm_client.models.timeline_activity_created_post_request import TimelineActivityCreatedPostRequest as TimelineActivityCreatedPostRequest
-from twentycrm_client.models.timeline_activity_created_post_request_object_metadata import TimelineActivityCreatedPostRequestObjectMetadata as TimelineActivityCreatedPostRequestObjectMetadata
-from twentycrm_client.models.timeline_activity_deleted_post_request import TimelineActivityDeletedPostRequest as TimelineActivityDeletedPostRequest
 from twentycrm_client.models.timeline_activity_for_response import TimelineActivityForResponse as TimelineActivityForResponse
 from twentycrm_client.models.timeline_activity_for_update import TimelineActivityForUpdate as TimelineActivityForUpdate
-from twentycrm_client.models.timeline_activity_updated_post_request import TimelineActivityUpdatedPostRequest as TimelineActivityUpdatedPostRequest
 from twentycrm_client.models.update_many_attachments200_response import UpdateManyAttachments200Response as UpdateManyAttachments200Response
 from twentycrm_client.models.update_many_attachments200_response_data import UpdateManyAttachments200ResponseData as UpdateManyAttachments200ResponseData
 from twentycrm_client.models.update_many_blocklists200_response import UpdateManyBlocklists200Response as UpdateManyBlocklists200Response
@@ -2220,40 +2008,20 @@ from twentycrm_client.models.update_one_workspace_member200_response import Upda
 from twentycrm_client.models.update_one_workspace_member200_response_data import UpdateOneWorkspaceMember200ResponseData as UpdateOneWorkspaceMember200ResponseData
 from twentycrm_client.models.workflow import Workflow as Workflow
 from twentycrm_client.models.workflow_automated_trigger import WorkflowAutomatedTrigger as WorkflowAutomatedTrigger
-from twentycrm_client.models.workflow_automated_trigger_created_post_request import WorkflowAutomatedTriggerCreatedPostRequest as WorkflowAutomatedTriggerCreatedPostRequest
-from twentycrm_client.models.workflow_automated_trigger_created_post_request_object_metadata import WorkflowAutomatedTriggerCreatedPostRequestObjectMetadata as WorkflowAutomatedTriggerCreatedPostRequestObjectMetadata
-from twentycrm_client.models.workflow_automated_trigger_deleted_post_request import WorkflowAutomatedTriggerDeletedPostRequest as WorkflowAutomatedTriggerDeletedPostRequest
 from twentycrm_client.models.workflow_automated_trigger_for_response import WorkflowAutomatedTriggerForResponse as WorkflowAutomatedTriggerForResponse
 from twentycrm_client.models.workflow_automated_trigger_for_update import WorkflowAutomatedTriggerForUpdate as WorkflowAutomatedTriggerForUpdate
-from twentycrm_client.models.workflow_automated_trigger_updated_post_request import WorkflowAutomatedTriggerUpdatedPostRequest as WorkflowAutomatedTriggerUpdatedPostRequest
-from twentycrm_client.models.workflow_created_post_request import WorkflowCreatedPostRequest as WorkflowCreatedPostRequest
-from twentycrm_client.models.workflow_created_post_request_object_metadata import WorkflowCreatedPostRequestObjectMetadata as WorkflowCreatedPostRequestObjectMetadata
-from twentycrm_client.models.workflow_deleted_post_request import WorkflowDeletedPostRequest as WorkflowDeletedPostRequest
 from twentycrm_client.models.workflow_for_response import WorkflowForResponse as WorkflowForResponse
 from twentycrm_client.models.workflow_for_update import WorkflowForUpdate as WorkflowForUpdate
 from twentycrm_client.models.workflow_run import WorkflowRun as WorkflowRun
 from twentycrm_client.models.workflow_run_created_by import WorkflowRunCreatedBy as WorkflowRunCreatedBy
-from twentycrm_client.models.workflow_run_created_post_request import WorkflowRunCreatedPostRequest as WorkflowRunCreatedPostRequest
-from twentycrm_client.models.workflow_run_created_post_request_object_metadata import WorkflowRunCreatedPostRequestObjectMetadata as WorkflowRunCreatedPostRequestObjectMetadata
-from twentycrm_client.models.workflow_run_deleted_post_request import WorkflowRunDeletedPostRequest as WorkflowRunDeletedPostRequest
 from twentycrm_client.models.workflow_run_for_response import WorkflowRunForResponse as WorkflowRunForResponse
 from twentycrm_client.models.workflow_run_for_response_created_by import WorkflowRunForResponseCreatedBy as WorkflowRunForResponseCreatedBy
 from twentycrm_client.models.workflow_run_for_update import WorkflowRunForUpdate as WorkflowRunForUpdate
-from twentycrm_client.models.workflow_run_updated_post_request import WorkflowRunUpdatedPostRequest as WorkflowRunUpdatedPostRequest
-from twentycrm_client.models.workflow_updated_post_request import WorkflowUpdatedPostRequest as WorkflowUpdatedPostRequest
 from twentycrm_client.models.workflow_version import WorkflowVersion as WorkflowVersion
-from twentycrm_client.models.workflow_version_created_post_request import WorkflowVersionCreatedPostRequest as WorkflowVersionCreatedPostRequest
-from twentycrm_client.models.workflow_version_created_post_request_object_metadata import WorkflowVersionCreatedPostRequestObjectMetadata as WorkflowVersionCreatedPostRequestObjectMetadata
-from twentycrm_client.models.workflow_version_deleted_post_request import WorkflowVersionDeletedPostRequest as WorkflowVersionDeletedPostRequest
 from twentycrm_client.models.workflow_version_for_response import WorkflowVersionForResponse as WorkflowVersionForResponse
 from twentycrm_client.models.workflow_version_for_update import WorkflowVersionForUpdate as WorkflowVersionForUpdate
-from twentycrm_client.models.workflow_version_updated_post_request import WorkflowVersionUpdatedPostRequest as WorkflowVersionUpdatedPostRequest
 from twentycrm_client.models.workspace_member import WorkspaceMember as WorkspaceMember
-from twentycrm_client.models.workspace_member_created_post_request import WorkspaceMemberCreatedPostRequest as WorkspaceMemberCreatedPostRequest
-from twentycrm_client.models.workspace_member_created_post_request_object_metadata import WorkspaceMemberCreatedPostRequestObjectMetadata as WorkspaceMemberCreatedPostRequestObjectMetadata
-from twentycrm_client.models.workspace_member_deleted_post_request import WorkspaceMemberDeletedPostRequest as WorkspaceMemberDeletedPostRequest
 from twentycrm_client.models.workspace_member_for_response import WorkspaceMemberForResponse as WorkspaceMemberForResponse
 from twentycrm_client.models.workspace_member_for_update import WorkspaceMemberForUpdate as WorkspaceMemberForUpdate
 from twentycrm_client.models.workspace_member_name import WorkspaceMemberName as WorkspaceMemberName
-from twentycrm_client.models.workspace_member_updated_post_request import WorkspaceMemberUpdatedPostRequest as WorkspaceMemberUpdatedPostRequest
 
