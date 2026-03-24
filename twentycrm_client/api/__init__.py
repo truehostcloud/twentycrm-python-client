@@ -1,0 +1,34 @@
+# flake8: noqa
+
+# import apis into api package
+from twentycrm_client.api.general_api import GeneralApi
+from twentycrm_client.api.attachments_api import AttachmentsApi
+from twentycrm_client.api.blocklists_api import BlocklistsApi
+from twentycrm_client.api.calendar_channel_event_associations_api import CalendarChannelEventAssociationsApi
+from twentycrm_client.api.calendar_channels_api import CalendarChannelsApi
+from twentycrm_client.api.calendar_event_participants_api import CalendarEventParticipantsApi
+from twentycrm_client.api.calendar_events_api import CalendarEventsApi
+from twentycrm_client.api.companies_api import CompaniesApi
+from twentycrm_client.api.connected_accounts_api import ConnectedAccountsApi
+from twentycrm_client.api.dashboards_api import DashboardsApi
+from twentycrm_client.api.favorite_folders_api import FavoriteFoldersApi
+from twentycrm_client.api.favorites_api import FavoritesApi
+from twentycrm_client.api.message_channel_message_associations_api import MessageChannelMessageAssociationsApi
+from twentycrm_client.api.message_channels_api import MessageChannelsApi
+from twentycrm_client.api.message_folders_api import MessageFoldersApi
+from twentycrm_client.api.message_participants_api import MessageParticipantsApi
+from twentycrm_client.api.message_threads_api import MessageThreadsApi
+from twentycrm_client.api.messages_api import MessagesApi
+from twentycrm_client.api.note_targets_api import NoteTargetsApi
+from twentycrm_client.api.notes_api import NotesApi
+from twentycrm_client.api.opportunities_api import OpportunitiesApi
+from twentycrm_client.api.people_api import PeopleApi
+from twentycrm_client.api.task_targets_api import TaskTargetsApi
+from twentycrm_client.api.tasks_api import TasksApi
+from twentycrm_client.api.timeline_activities_api import TimelineActivitiesApi
+from twentycrm_client.api.workflow_automated_triggers_api import WorkflowAutomatedTriggersApi
+from twentycrm_client.api.workflow_runs_api import WorkflowRunsApi
+from twentycrm_client.api.workflow_versions_api import WorkflowVersionsApi
+from twentycrm_client.api.workflows_api import WorkflowsApi
+from twentycrm_client.api.workspace_members_api import WorkspaceMembersApi
+
