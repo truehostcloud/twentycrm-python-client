@@ -1,5 +1,5 @@
 [project]
-name = "twentycrm_client"
+name = "twentycrm-api-client"
 version = "1.18.1"
 description = "Twenty Api"
 authors = [
